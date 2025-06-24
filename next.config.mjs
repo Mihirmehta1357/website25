@@ -1,18 +1,23 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
     domains: ['images.unsplash.com', 'res.cloudinary.com'],
   },
-  // Remove the experimental.turbo setting - it's not needed
-  // experimental: {
-  //   turbo: false,
-  // },
   reactStrictMode: true,
-  swcMinify: true,
-  // Add these production optimizations
+  // Remove swcMinify - it's enabled by default in Next.js 13+
+  // swcMinify: true,
+  
+  // Production optimizations
   compress: true,
   poweredByHeader: false,
   generateEtags: false,
+  
+  // Add output configuration for better Heroku compatibility
+  output: 'standalone',
+  
+  // Optimize for production
+  experimental: {
+    optimizeCss: true,
+  },
 };
 
 export default nextConfig;
