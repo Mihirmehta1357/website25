@@ -3,8 +3,6 @@ const nextConfig = {
     domains: ['images.unsplash.com', 'res.cloudinary.com'],
   },
   reactStrictMode: true,
-  // Remove swcMinify - it's enabled by default in Next.js 13+
-  // swcMinify: true,
   
   // Production optimizations
   compress: true,
@@ -14,10 +12,10 @@ const nextConfig = {
   // Add output configuration for better Heroku compatibility
   output: 'standalone',
   
-  // Optimize for production
-  experimental: {
-    optimizeCss: true,
-  },
+  // Remove this section - it's causing the critters error:
+  // experimental: {
+  //   optimizeCss: true,
+  // },
 };
 
 export default nextConfig;
