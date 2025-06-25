@@ -146,26 +146,27 @@ const Footer = () => {
               <div className="flex items-center space-x-3 text-teal-100 group">
                 <Phone size={18} className="group-hover:text-white" />
                 <a 
-                  href="tel:+911234567890" 
+                  href="tel:+919999083353" 
                   className="group-hover:text-white transition-colors duration-300"
                 >
-                  +91 1234567890
+                  +91 9999083353, 9958500353
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-teal-100 group">
                 <Mail size={18} className="group-hover:text-white" />
                 <a 
-                  href="mailto:contact@konceptservices.com" 
+                  href="mailto:info@konceptservices.in" 
                   className="group-hover:text-white transition-colors duration-300"
                 >
-                  contact@konceptservices.com
+                  info@konceptservices.in, sales@konceptservices.in
                 </a>
               </div>
               <div className="flex items-start space-x-3 text-teal-100 group">
                 <MapPin size={18} className="group-hover:text-white mt-1 flex-shrink-0" />
                 <span className="group-hover:text-white transition-colors duration-300">
-                  456 Business Hub, Corporate Park,<br />
-                  Delhi NCR - 110001
+                  Ground Floor C-2/13, Khasra No. 65<br />
+                  Saidulajab Extension Neb Sarai Road<br />
+                  New Delhi 110068
                 </span>
               </div>
             </div>
