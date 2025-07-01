@@ -57,7 +57,7 @@ const Footer = () => {
                 <span className="text-sm text-teal-100 font-medium">Complete Office Supply Solutions</span>
               </div>
             </div>
-            <p className="text-teal-100">Providing professional office supplies including stationery, housekeeping, pantry, IT accessories and COVID safety items. Serving 1800+ clients with 48-hour delivery across Delhi NCR and Pan India.</p>
+            <p className="text-teal-100">Providing professional office supplies including stationery, housekeeping Serving 1800+ clients with 48-hour delivery across Delhi NCR and Pan India.</p>
             <div className="flex items-center space-x-5">
               <a href="#" className="text-white hover:text-teal-200 transition-colors duration-300">
                 <Facebook size={22} className="hover:scale-110 transform transition-transform" />
