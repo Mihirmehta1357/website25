@@ -127,7 +127,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/terms-of-service" className="text-teal-100 hover:text-white transition-colors duration-300 flex items-center group">
+                <Link href="/terms-of-use" className="text-teal-100 hover:text-white transition-colors duration-300 flex items-center group">
                   <span className="mr-2 group-hover:translate-x-1 transition-transform duration-200">→</span>Terms of Service
                 </Link>
               </li>
